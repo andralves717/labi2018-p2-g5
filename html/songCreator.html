@@ -1,0 +1,202 @@
+<html>
+<head>
+<title>Song Creator</title>
+
+<style>
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        height: 50px;
+        width: 30px;
+        align-self: center;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 10px;
+        width: 10px;
+        background-color: white;
+    }
+    .container input:checked ~ .checkmark {
+        background-color: red;
+        height: 60px;
+        width: 60px;
+    }
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    td {
+        border: 1px solid black;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <div id="table_sheet">
+        <table>
+            <tr>
+                <th>Samples</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td class="box"><label class="container"><input id="check_1_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td class="box"><label class="container"><input id="check_1_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_2_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_2_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_3_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_3_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_4_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_4_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_5_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_5_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_6_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_6_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_7_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_7_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_8_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_8_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_9_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_9_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            <tr>
+                <td> <select><option value="sample1">Sample 1</option><option value="sample2">Sample 2</option></select> </td>
+                <td><label class="container"><input id="check_10_1"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_2"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_3"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_4"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_5"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_6"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_7"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_8"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_9"  type="checkbox" ><span class="checkmark"></span></label></td>
+                <td><label class="container"><input id="check_10_10" type="checkbox"> <span class="checkmark"></span></label></td>
+            </tr>
+            
+            
+            
+            
+        </table>
+
+
+
+    </div>
+
+
+
+
+</body>
+</html>
