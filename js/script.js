@@ -8,3 +8,7 @@ for(i = 0; i < 100; i++){
     checked = isChecked("check_"+(i/10+1)+"_"+(i%10));
 
 }
+
+function name(params) {
+    
+}

@@ -5,10 +5,11 @@
 # JMR@ua.pt 2016
 #
 # To run:
-#	python exampleApp.py
+#	python3 exampleApp.py
 
 import os.path
 import cherrypy
+import sqlite3
 
 # The absolute path to this file's base directory:
 baseDir = os.path.dirname(os.path.abspath(__file__))
@@ -24,6 +25,8 @@ config = {
              "tools.staticdir.dir": "html" },
 }
 
+dataBase = sqlite3.connect('database.db')
+dbCom = dataBase.cursor()
 class Root:
     # This class atribute contains the HTML text of the main page:
     indexHTML = """<html>
@@ -57,11 +60,15 @@ class Root:
 
     def list(self, type):
       print(type)
-      return "LIST"
-    
-    def get(self, id):
-      print(id)
-      return "GET"
+      
+      if(type == "samples"):
+        return dbCom.execute("SELECT * FROM samples")
+      else if(type = songs):
+        return dbCom.execute("SELECT * FROM songs")
+  
+      def get(self, id):
+        print(id)
+        return "GET"
 
     def put(self, pauta, name):
       print(pauta + "/n")
