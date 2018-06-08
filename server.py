@@ -15,7 +15,7 @@ import json
 
 # Porta TCP para 10005 (grupo 5)
 
-cherrypy.config.update({'server.socket_port': 10005,})
+cherrypy.config.update({'server.socket_port': 10007,})
 
 # The absolute path to this file's base directory:
 baseDir = os.path.dirname(os.path.abspath(__file__))
@@ -61,7 +61,11 @@ class Root:
 
     @cherrypy.expose
     def dynamic2(self):
-       return "This is dynamic2"
+       return open("html/dynamic.html").read()
+
+    @cherrypy.expose
+    def songCreator(self):
+       return open("html/songCreator.html").read()
 
     @cherrypy.expose
     def list(self, type):
