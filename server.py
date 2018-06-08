@@ -67,11 +67,7 @@ class Root:
    
       if(type == "samples"):
         return dbCom.execute("SELECT * FROM samples")
-<<<<<<< HEAD
-      elif(type == songs):
-=======
       elif(type == "songs"):
->>>>>>> de1ca47d24a29d88ea708ff7a20b1201e1d02e9a
         return dbCom.execute("SELECT * FROM songs")
  
     def get(self, id):
