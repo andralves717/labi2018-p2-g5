@@ -11,6 +11,11 @@ import os.path
 import cherrypy
 import sqlite3
 import tabelas
+import json
+
+# Porta TCP para 10005 (grupo 5)
+
+cherrypy.config.update({'server.socket_port': 10005,})
 
 # The absolute path to this file's base directory:
 baseDir = os.path.dirname(os.path.abspath(__file__))
@@ -52,36 +57,58 @@ class Root:
 
     @cherrypy.expose
     def index(self):
-       return Root.indexHTML
+       return open("html/index.html").read()
 
     @cherrypy.expose
     def dynamic2(self):
        return "This is dynamic2"
+
     @cherrypy.expose
     def list(self, type):
       print(type)
       dataBase = sqlite3.connect('database.db')
-      dbCom = dataBase.cursor()
    
       if(type == "samples"):
-        dbCom.execute("SELECT * FROM samples")
-        dataBase.commit()
-        print(dbCom.fetchall())
-        return Root.indexHTML
+        result = dataBase.execute("SELECT * FROM samples")
+        rows = result.fetchall()
+        dict = []
+        i = 0
+        for row in rows:
+          dict.append({})
+          dict[i]["name"] = row[0]
+          dict[i]["date"] = row[1]
+          dict[i]["id"] = row[2]
+          dict[i]["length"] = row[3]
+          dict[i]["uses"] = row[4]
+          i = i + 1
+        return (json.dumps(dict, indent=4))
       elif(type == "songs"):
-        dbCom.execute("SELECT * FROM samples")
-        dataBase.commit()
-        print(dbCom.fetchall())
-        return Root.indexHTML
+        result = dataBase.execute("SELECT * FROM songs")
+        rows = result.fetchall()
+        dict = []
+        i = 0
+        for row in rows:
+          dict.append({})
+          dict[i]["name"] = row[0]
+          dict[i]["id"] = row[1]
+          dict[i]["length"] = row[2]
+          dict[i]["date"] = row[3]
+          dict[i]["uses"] = row[4]
+          dict[i]["votes"] = row[5]
+          dict[i]["author"] = row[6]
+          i = i + 1
+        return (json.dumps(dict, indent=4))
+
     @cherrypy.expose
     def get(self, id):
         print(id)
         return "GET"
+
     @cherrypy.expose
     def put(self, pauta, name):
       print(pauta + "/n")
-
       print(name)
+      
     @cherrypy.expose
     def vote(self, id, user, points):
       return "VOTE"
