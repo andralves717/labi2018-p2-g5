@@ -26,8 +26,7 @@ config = {
              "tools.staticdir.dir": "html" },
 }
 
-dataBase = sqlite3.connect('database.db')
-dbCom = dataBase.cursor()
+
 class Root:
     # This class atribute contains the HTML text of the main page:
     indexHTML = """<html>
@@ -43,7 +42,7 @@ class Root:
        <h1>This is the main (index) page, served dynamically.</h1>
        You should have seen an Alert before this page.
        <p>This is a paragraph, that should be green.</p>
-       This is a <a href="html/page.html">link to a static page</a>
+       This is a <a href="html/songCreator.html">link to a static page</a>
        </br>
        This is a <a href="/dynamic2">link to a dynamic2</a>
        
@@ -58,24 +57,32 @@ class Root:
     @cherrypy.expose
     def dynamic2(self):
        return "This is dynamic2"
-
+    @cherrypy.expose
     def list(self, type):
       print(type)
+      dataBase = sqlite3.connect('database.db')
+      dbCom = dataBase.cursor()
    
       if(type == "samples"):
-        return dbCom.execute("SELECT * FROM samples")
+        dbCom.execute("SELECT * FROM samples")
+        dataBase.commit()
+        print(dbCom.fetchall())
+        return Root.indexHTML
       elif(type == "songs"):
-        return dbCom.execute("SELECT * FROM songs")
- 
+        dbCom.execute("SELECT * FROM samples")
+        dataBase.commit()
+        print(dbCom.fetchall())
+        return Root.indexHTML
+    @cherrypy.expose
     def get(self, id):
         print(id)
         return "GET"
-
+    @cherrypy.expose
     def put(self, pauta, name):
       print(pauta + "/n")
 
       print(name)
-
+    @cherrypy.expose
     def vote(self, id, user, points):
       return "VOTE"
 

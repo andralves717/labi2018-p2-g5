@@ -2,7 +2,7 @@ import sqlite3 as sql
 import sys
 
 def printTable():
-	db = sql.connect(database.db)
+	db = sql.connect("database.db")
 	
 	result = db.execute("SELECT * FROM songs")
 	rows = result.fetchall()
@@ -12,9 +12,4 @@ def printTable():
 	db.close()
 	
 
-
-
-musicName
-utilizador
-votos
-excertos
+printTable()

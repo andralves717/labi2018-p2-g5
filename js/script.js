@@ -9,6 +9,6 @@ for(i = 0; i < 100; i++){
 
 }
 
-function name(params) {
-    
+function getSamples(params) {
+    window.open("/list?type=samples","_self");
 }
