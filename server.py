@@ -10,6 +10,7 @@
 import os.path
 import cherrypy
 import sqlite3
+import tabelas
 
 # Porta TCP para 10005 (grupo 5)
 cherrypy.config.update({'server.socket_port': 10005,})
@@ -63,13 +64,17 @@ class Root:
 
     def list(self, type):
       print(type)
-      
+   
       if(type == "samples"):
         return dbCom.execute("SELECT * FROM samples")
+<<<<<<< HEAD
       elif(type == songs):
+=======
+      elif(type == "songs"):
+>>>>>>> de1ca47d24a29d88ea708ff7a20b1201e1d02e9a
         return dbCom.execute("SELECT * FROM songs")
-  
-      def get(self, id):
+ 
+    def get(self, id):
         print(id)
         return "GET"
 
