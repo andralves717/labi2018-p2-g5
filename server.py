@@ -10,6 +10,7 @@
 import os.path
 import cherrypy
 import sqlite3
+import tabelas
 
 # The absolute path to this file's base directory:
 baseDir = os.path.dirname(os.path.abspath(__file__))
@@ -60,13 +61,13 @@ class Root:
 
     def list(self, type):
       print(type)
-      
+   
       if(type == "samples"):
         return dbCom.execute("SELECT * FROM samples")
-      else if(type = songs):
+      elif(type == "songs"):
         return dbCom.execute("SELECT * FROM songs")
-  
-      def get(self, id):
+ 
+    def get(self, id):
         print(id)
         return "GET"
 
