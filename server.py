@@ -15,7 +15,7 @@ import json
 
 # Porta TCP para 10005 (grupo 5)
 
-cherrypy.config.update({'server.socket_port': 10005,})
+cherrypy.config.update({'server.socket_port': 10018,})
 
 # The absolute path to this file's base directory:
 baseDir = os.path.dirname(os.path.abspath(__file__))
@@ -31,32 +31,12 @@ config = {
              "tools.staticdir.dir": "html" },
   "/audio": { "tools.staticdir.on": True,
              "tools.staticdir.dir": "audio" },
+  "/images": { "tools.staticdir.on": True,
+              "tools.staticdir.dir": "images" },
 }
 
 
 class Root:
-    # This class atribute contains the HTML text of the main page:
-    indexHTML = """<html>
-       <head>
-       <title>CherryPy static example</title>
-       <link rel="stylesheet" type="text/css"
-       href="css/style.css" type="text/css"></link>
-       <script
-       type="application/javascript"
-       src="js/some.js"></script>
-       </head>
-       <body>
-       <h1>This is the main (index) page, served dynamically.</h1>
-       You should have seen an Alert before this page.
-       <p>This is a paragraph, that should be green.</p>
-       This is a <a href="html/songCreator.html">link to a static page</a>
-       </br>
-       This is a <a href="/dynamic2">link to a dynamic2</a>
-       
-       </body>
-       </html>
-       """
-
     @cherrypy.expose
     def index(self):
        return open("html/index.html").read()
@@ -66,8 +46,12 @@ class Root:
        return open("html/excertos.html").read()
 
     @cherrypy.expose
-    def songCreator(self):
-       return open("html/songCreator.html").read()
+    def misturador(self):
+       return open("html/misturador.html").read()
+
+    @cherrypy.expose
+    def songs(self):
+       return open("html/songs.html").read()
 
     @cherrypy.expose
     def list(self, type):
