@@ -1,27 +1,32 @@
 <html>
+
 <head>
-<title>Song Creator</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="../css/style.css" >
-<script type="text/javascript" src="../js/script.js"></script>
+    <title>Song Creator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script type="text/javascript" src="../js/script.js"></script>
 </head>
+
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
+    <!-- Navbar -->
+    <div class="w3-top">
         <div class="w3-bar w3-black w3-card">
-          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-          <a href="/index" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-          <a href="/dynamic2" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Página Dinamica</a>
-          <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Song Creator</a>
+            <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()"
+                title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="/index" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+            <a href="/excertos" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Excertos</a>
+            <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Song Creator</a>
 
-          <!-- <a href="#contact" class="w3-              <button tabindex="-1" class="btn-panels" id="panning" data-tooltip="Left-right distribution">Panning</button>
+            <!-- <a href="#contact" class="w3-              <button tabindex="-1" class="btn-panels" id="panning" data-tooltip="Left-right distribution">Panning</button>
 bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a> -->
-          <!-- <div class="w3-dropdown-hover w3-hide-small">
+            <!-- <div class="w3-dropdown-hover w3-hide-small">
             <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
               <a href="#" class="w3-bar-item w3-button">Merchandise</a>
@@ -30,615 +35,854 @@ bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a> -->
             </div>
           </div> -->
         </div>
-      </div>
+    </div>
 
 
-      <!-- Navbar on small screens -->
+    <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
         <a href="#" class="w3-bar-item w3-button w3-padding-large">Song Creator</a>
-        <a href="/dynamic2" class="w3-bar-item w3-button w3-padding-large">Página Dinamica</a>
+        <a href="/excertos" class="w3-bar-item w3-button w3-padding-large">Excertos</a>
         <!-- <a href="#contact" class="w3-bar-item w3-button w3-padding-large">CONTACT</a>
         <a href="#" class="w3-bar-item w3-button w3-padding-large">MERCH</a> -->
     </div>
 
-<!-- Page content -->
-<div class="w3-content" style="max-width:2000px;margin-top:46px">
-
-    <div id="table_sheet" align="center" scale="0.8">
-        <table>
-            <tr>
-                <th>Sons</th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th>Volume</th><th>Efeitos</th>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                        <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">D</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td class="box"><label class="container w3-round-medium"><input id="check_1_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                        <option value="NoEffect">NoEffect</option>
-                        <option value="Reverse">Reverse</option>
-                        <option value="Delay">Delay</option>
-                        <option value="FadeIn">FadeIn</option>
-                        <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_2_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_2_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                 <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_3_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_3_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                  <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_4_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_4_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                  <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_5_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_5_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_6_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_6_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_7_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_7_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_8_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_8_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_9_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_9_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="" disabled selected>Escolhe o teu Som</option>
-                        <option value="Airhorn">Airhorn</option>
-                        <option value="Allthehits">Allthehits</option>
-                        <option value="AweYeah">AweYeah</option>
-                        <option value="Clap">Clap</option>
-                        <option value="Click">Click</option>
-                        <option value="Congratulations">Congratulations</option>
-                        <option value="Cops">Cops</option>
-                        <option value="Damnson">Damnson</option>
-                        <option value="Di">Di</option>
-                        <option value="Dino">Dino</option>
-                        <option value="Elephant">Elephant</option>
-                        <option value="Kick">Kick</option>
-                        <option value="Kick2">Kick2</option>
-                        <option value="Kick3">Kick3</option>
-                        <option value="Killingit">Killingit</option>
-                        <option value="Laser">Laser</option>
-                        <option value="Moan">Moan</option>
-                        <option value="Noise">Noise</option>
-                        <option value="Rise">Rise</option>
-                        <option value="Ross">Ross</option>
-                        <option value="Shore">Shore</option>
-                        <option value="Snap">Snap</option>
-                        <option value="Snare">Snare</option>
-                        <option value="Snare2">Snare2</option>
-                        <option value="Snare3">Snare3</option>
-                        <option value="Snare4">Snare4</option>
-                        <option value="Squeek">Squeek</option>
-                        <option value="Ugh">Ugh</option>
-                        <option value="Whip">Whip</option>
-                    </select>
-                </td>
-                <td><label class="container w3-round-medium"><input id="check_10_1"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_2"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_3"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_4"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_5"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_6"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_7"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_8"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_9"  type="checkbox" ><span class="checkmark w3-round-medium"></span></label></td>
-                <td><label class="container w3-round-medium"><input id="check_10_10" type="checkbox"> <span class="checkmark w3-round-medium"></span></label></td>
-                <td><div class="slidecontainer">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                  </div></td>
-                <td>
-                    <select class="w3-select w3-round-medium" name="option" id="myDIV">
-                            <option value="NoEffect">NoEffect</option>
-                            <option value="Reverse">Reverse</option>
-                            <option value="Delay">Delay</option>
-                            <option value="FadeIn">FadeIn</option>
-                            <option value="FadeOut">FadeOut</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                    <th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
+    <!-- Page content -->
+    <div class="w3-content" style="max-width:2000px;margin-top:46px">
+        <div class="jumbotron">
+            <h1 style="margin-left: 8%">Misturador</h1>
+        </div>
+        <div id="table_sheet" align="center" scale="0.8">
+            <table>
+                <tr>
+                    <th>Sons</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>Volume</th>
+                    <th>Efeitos</th>
                 </tr>
-        </table>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td class="box">
+                        <label class="container w3-round-medium">
+                            <input id="check_1_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_2_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_3_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_4_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_5_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_6_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_7_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_8_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_9_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select class="mixJS w3-select w3-round-medium" name="option"></select>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_1" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_2" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_3" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_4" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_5" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_6" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_7" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_8" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_9" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <label class="container w3-round-medium">
+                            <input id="check_10_10" type="checkbox">
+                            <span class="checkmark w3-round-medium"></span>
+                        </label>
+                    </td>
+                    <td>
+                        <div class="slidecontainer">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </td>
+                    <td>
+                        <select class=" w3-select w3-round-medium" name="option">
+                            <option value="NoEffect">NoEffect</option>
+                            <option value="Reverse">Reverse</option>
+                            <option value="Delay">Delay</option>
+                            <option value="FadeIn">FadeIn</option>
+                            <option value="FadeOut">FadeOut</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="mistura">
+            <button class="w3-btn w3-blue-gray w3-round-medium">Mistura-te!</button>
+        </div>
+        <!-- End Page Content -->
     </div>
 
-    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="mistura">
-        <button class="w3-btn w3-blue-gray w3-round-medium">Mistura-te!</button>
-    </div>
-<!-- End Page Content -->
-</div>
+    <script type="text/javascript" src="../js/mix_lista.js"></script>
+
+
 </body>
+
 </html>

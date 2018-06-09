@@ -1,5 +1,3 @@
-alert("Viva!")
-
 function isChecked(id){
     return document.getElementById(id).checked;
 }
