@@ -55,7 +55,6 @@ function get_vol(){
     selects = document.getElementsByClassName("volJS");
     for(var i = 0; i < selects.length; i++){
         var elem = selects[i];
-        console.log(elem.value)
         values[i] = elem.value;
     }
     for(var i = 0; i < values.length; i++){    
@@ -97,5 +96,5 @@ function generate_json(){
 }
 
 function test(){
-    console.log(generate_json())
+    console.log(generate_json());
 }
