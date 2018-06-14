@@ -96,5 +96,10 @@ function generate_json(){
 }
 
 function test(){
-    console.log(generate_json());
+    var json = generate_json();
+    var request = new XMLHttpRequest();
+
+    request.open("POST", "sheet?sheet=" + JSON.stringify(json), true);
+    request.send(null);
+      
 }

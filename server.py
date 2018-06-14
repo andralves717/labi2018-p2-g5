@@ -11,6 +11,7 @@ import os.path
 import cherrypy
 import sqlite3
 import json
+from mixer import mix
 
 # Porta TCP para 10005 (grupo 5)
 
@@ -94,9 +95,8 @@ class Root:
         return "GET"
 
     @cherrypy.expose
-    def put(self, pauta, name):
-      print(pauta + "/n")
-      print(name)
+    def sheet(self, sheet):
+      mix(sheet)
       
     @cherrypy.expose
     def vote(self, id,points):
