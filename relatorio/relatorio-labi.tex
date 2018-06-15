@@ -9,7 +9,6 @@
 \usepackage{hyperref} % para autoref
 \usepackage{graphicx}
 \usepackage{indentfirst}
-\graphicspath{{imagens/}}
 \bibliography{bibliografia.bib}
 
 \begin{document}
@@ -83,57 +82,75 @@
 
 \chapter{Introdução}
 \label{chap.introducao}
-O projeto final da disciplina de Laboratórios de Informática consiste na criação de um sistema de que permite criar músicas através de excertos de música.
+O objetivo do projeto é a criação de um sistema que permita criar músicas através da
+composição de pedaços de música. O projeto funciona a partir de um servidor do XCOA.
+O sistema é composto por vários componentes, componentes estes que são:
+\begin{itemize}
+	\item Interface Web
+	\item Aplicação Web
+	\item Persistência
+	\item Gerador de Músicas
+\end{itemize}	
 
+A Interface Web (\autoref{chap.interface}) é composta por quatro páginas HTML cada uma com 
+um propósito prório a explicar mais à frente.
 
+A página Início é uma pequena página inicial na qual o utilizador poderá ver 
+aquilo que pode fazer neste site, assim como algumas informações sobre os autores e o local onde o projeto foi desenvolvido.
 	
+As Aplicações Web consistem num programa python que serve conteúdos estáticos, 
+esta parte do trabalho serve como ponte para todos os outros componentes, para além disto tem também objetivos próprios a ser 
+explicados mais à frente na \autoref{chap.aplicacao}.
 
+A parte da Persistência consiste numa base de dados relacional e obtenção de dados da mesma, 
+tudo isto será depois utilizado pela parte das Aplicações Web para registar as músicas criadas, os excertos que existem e os 
+votos de cada um dos utilizadores, explicado em maior detalhe em \autoref{chap.persistencia}.
 
+A parte do Gerador de Música deverá aceitar uma pauta na forma de um dicionário, gerando a música
+especificada. Caso a geração tenha sucesso, a música deverá ser escrita no sistema de
+ficheiros. Deverá igualmente ser gerado um identificador com base no conteúdo, sendo
+este devolvido pelo módulo para persistência na base de dados.
+Este componente deverá suportar pelo menos 5 efeitos a aplicar no momento da geração
+da música.
 
 \chapter{Desenvolvimento}
 \label{chap.desenvolvimento}
 	
-\section{Interface Web}s
+\section{Interface Web}
+\label{chap.interface}
 ..............
 
 \section{Aplicação Web}
+\label{chap.aplicacao}
 ................
 
 \section{Persistência}
+\label{chap.persistencia}
 ...............
 
 \section{Gerador de Músicas}
+\label{chap.gerador}
 ...................
 
-
-
-	\begin{figure} [t]
-		\centering
-		\includegraphics[scale=0.6, angle = 90]{img/arq_final.PNG}
-		\caption{Arquitetura geral}
-	\end{figure}
-
-	\begin{figure} [h]
-		\centering
-		\includegraphics[scale=0.7]{img/m_estados.PNG}
-		\caption{Máquina de Estados}
-	\end{figure}	
 	 
-
-	
 \chapter{Conclusões Finais}
 \label{chap.conclusao}
-	Com este projeto de gerador de músicas foi possível consolidar os conhecimentos adquiridos em aulas pois foi necessário tudo o que foi realizado ao longo semestre.  
+	Com este projeto de gerador de músicas foi possível consolidar os conhecimentos 
+	adquiridos em aulas pois foi necessário tudo o que foi realizado ao longo semestre. 
+	
+	Infelizmente, o projeto não está completamente funcional. Ainda assim, com o que foi feito, mudou a forma como os 
+	elementos do grupo veem as aplicações como esta de gerador de músicas, todo o trabalho que está por detrás do que é 
+	apresentado ao utilizador.  
 
  
 \chapter{Contribuições dos autores}
 \label{contribuições}
 
 \noindent
-André Alvez - 10\% \\
-Daniel Correia - 75\% \\
-Pedro Almeida - 5\% \\
-Pedro Valente - 10\% 
+André Alvez - 0\% \\
+Daniel Correia - 0\% \\
+Pedro Almeida - 0\% \\
+Pedro Valente - 0\% 
 
 
 \end{document}
