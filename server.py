@@ -15,7 +15,7 @@ from mixer import mix
 
 # Porta TCP para 10005 (grupo 5)
 
-cherrypy.config.update({'server.socket_port': 10020,})
+cherrypy.config.update({'server.socket_port': 10005,})
 
 # The absolute path to this file's base directory:
 baseDir = os.path.dirname(os.path.abspath(__file__))
