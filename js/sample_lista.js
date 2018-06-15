@@ -20,7 +20,7 @@ function preencher_lista(json_dados) {
     html = html + `<tr class="w3-center w3-hover-blue-gray">
       <td class="w3-center">` + dados.name + `</td>
       <td class="w3-center"><audio controls>
-        <source src="audio/samples/` + dados.name + `.mp3" type="audio/mp3">
+        <source src="audio/samples/` + dados.name + `.wav" type="audio/mp3">
         Your browser does not support the audio tag.
       </audio></td>
     </tr>`;
