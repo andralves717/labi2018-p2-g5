@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.6)  15 JUN 2018 22:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.4.6)  16 JUN 2018 01:45
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/pedro/ARCA/LABI/labi2018-p2-g5/relatorio/relatorio-labi.tex
-(/home/pedro/ARCA/LABI/labi2018-p2-g5/relatorio/relatorio-labi.tex
+**relatorio-labi.tex
+(./relatorio-labi.tex
 LaTeX2e <2017-04-15>
 Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -830,20 +829,20 @@ Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
 (./relatorio-labi.aux)
 \openout1 = `relatorio-labi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -852,10 +851,10 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'relatorio-labi.bbl' found.
  (./relatorio-labi.bbl)
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
+Package biblatex Info: Reference section=0 on input line 13.
+Package biblatex Info: Reference segment=0 on input line 13.
 \AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 13.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -865,9 +864,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count311
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
 
 (./relatorio-labi.out) (./relatorio-labi.out)
 \@outlinefile=\write5
@@ -904,153 +903,231 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<img/ua.pdf, id=36, pagebox=cropbox, 52.195pt x 55.20625pt>
+<img/ua.pdf, id=52, pagebox=cropbox, 52.195pt x 55.20625pt>
 File: img/ua.pdf Graphic file (type pdf)
 <use img/ua.pdf>
-Package pdftex.def Info: img/ua.pdf  used on input line 51. on input line 51.
+Package pdftex.def Info: img/ua.pdf  used on input line 50. on input line 50.
 Package pdftex.def Info: Requested size: 52.19487pt x 55.2061pt on input line 5
-1.
+0.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 57.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 58.
+(babel)             in language append on input line 57.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./img/ua.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 74.
+(Font)              <12> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 74.
+(Font)              <8> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 74.
+(Font)              <6> on input line 73.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 74.
+(babel)             in language append on input line 73.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 74.
+(babel)             in language append on input line 73.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 
-      [1] (./relatorio-labi.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
-)
-\tf@toc=\write6
-\openout6 = `relatorio-labi.toc'.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 79.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 79.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.79 \listoffigures
-                       % descomentar se necessário [1
-
-] (./relatorio-labi.lof)
-\tf@lof=\write7
-\openout7 = `relatorio-labi.lof'.
-
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 83.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 83.
-
-[2
-
-]
+l.73 
+      [1]
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 83.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
+(babel)             in language append on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 82.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 82.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 116.
+(babel)             in language append on input line 106.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 116.
- [3
+(babel)             in language append on input line 106.
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.106 \newpage
+               [1
 
 ]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 107.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 113.
+Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 116.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 119.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 123.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 127.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 131.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 136.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 136.
-[4
+(babel)             in language append on input line 116.
+[2
 
 ]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 117.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 120.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 120.
+ [3]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 121.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 158.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 158.
+ [4]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 159.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 162.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 162.
+ [5]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 136.
+(babel)             in language append on input line 163.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 144.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 144.
-[5
+(babel)             in language append on input line 166.
+<img/votos-1.png, id=98, 969.6225pt x 135.50626pt>
+File: img/votos-1.png Graphic file (type png)
+<use img/votos-1.png>
+Package pdftex.def Info: img/votos-1.png  used on input line 169. on input line
+ 169.
+Package pdftex.def Info: Requested size: 387.84213pt x 54.20152pt on input line
+ 169.
 
-]
-Cap\'{\i }tulo 4.
+Overfull \hbox (42.84213pt too wide) in paragraph at lines 169--170
+ [][] 
+ []
+
+<img/votos0.png, id=100, 948.54375pt x 133.49875pt>
+File: img/votos0.png Graphic file (type png)
+<use img/votos0.png>
+Package pdftex.def Info: img/votos0.png  used on input line 175. on input line 
+175.
+Package pdftex.def Info: Requested size: 379.41077pt x 53.39854pt on input line
+ 175.
+
+Overfull \hbox (34.41077pt too wide) in paragraph at lines 175--176
+ [][] 
+ []
+
+<img/votos1.png, id=101, 957.5775pt x 136.51pt>
+File: img/votos1.png Graphic file (type png)
+<use img/votos1.png>
+Package pdftex.def Info: img/votos1.png  used on input line 181. on input line 
+181.
+Package pdftex.def Info: Requested size: 383.02422pt x 54.60303pt on input line
+ 181.
+
+Overfull \hbox (38.02422pt too wide) in paragraph at lines 181--182
+ [][] 
+ []
+
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 144.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 154.
+(babel)             in language append on input line 185.
+<img/excertos.png, id=102, 1115.16624pt x 540.0175pt>
+File: img/excertos.png Graphic file (type png)
+<use img/excertos.png>
+Package pdftex.def Info: img/excertos.png  used on input line 188. on input lin
+e 188.
+Package pdftex.def Info: Requested size: 334.55246pt x 162.0065pt on input line
+ 188.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 154.
+(babel)             in language append on input line 190.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 154.
+(babel)             in language append on input line 190.
 [6
 
+ <./img/votos-1.png> <./img/votos0.png> <./img/votos1.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 192.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 192.
+ [7 <./img/excertos.png>]
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 193.
+<img/samples.png, id=119, 495.8525pt x 256.96pt>
+File: img/samples.png Graphic file (type png)
+<use img/samples.png>
+Package pdftex.def Info: img/samples.png  used on input line 196. on input line
+ 196.
+Package pdftex.def Info: Requested size: 198.33748pt x 102.78217pt on input lin
+e 196.
+<img/songs.png, id=120, 484.81125pt x 92.345pt>
+File: img/songs.png Graphic file (type png)
+<use img/songs.png>
+Package pdftex.def Info: img/songs.png  used on input line 202. on input line 2
+02.
+Package pdftex.def Info: Requested size: 242.40503pt x 46.17238pt on input line
+ 202.
+<img/votos.png, id=121, 361.35pt x 110.4125pt>
+File: img/votos.png Graphic file (type png)
+<use img/votos.png>
+Package pdftex.def Info: img/votos.png  used on input line 208. on input line 2
+08.
+Package pdftex.def Info: Requested size: 180.67456pt x 55.2061pt on input line 
+208.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 212.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 212.
+ [8 <./img/samples.png> <./img/songs.png> <./img/votos.png>]
+Cap\'{\i }tulo 4.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 213.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 222.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 222.
+[9
+
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 154.
+Cap\'{\i }tulo 5.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 223.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 233.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 233.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 233.
+[10
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 233.
  (./relatorio-labi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 154.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 154.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 233.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 233.
 Package rerunfilecheck Info: File `relatorio-labi.out' has not changed.
-(rerunfilecheck)             Checksum: 09713D9CA1F18055183005079A77DAC8;474.
+(rerunfilecheck)             Checksum: 1377CC071FC94293078FC6A61430337E;814.
 Package logreq Info: Writing requests to 'relatorio-labi.run.xml'.
 \openout1 = `relatorio-labi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13111 strings out of 492990
- 213635 string characters out of 6135006
- 674267 words of memory out of 5000000
- 16475 multiletter control sequences out of 15000+600000
- 14086 words of font info for 33 fonts, out of 8000000 for 9000
+ 13152 strings out of 492990
+ 214054 string characters out of 6135006
+ 674988 words of memory out of 5000000
+ 16503 multiletter control sequences out of 15000+600000
+ 13310 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,32p,930b,1550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,6n,32p,883b,1520s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb></usr
-/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/t
-ype1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super
-/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/
-share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfrm2488.pfb>
-Output written on relatorio-labi.pdf (8 pages, 148655 bytes).
+type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-supe
+r/sfbx2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr
+/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/t
+ype1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
+/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/
+share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb>
+Output written on relatorio-labi.pdf (12 pages, 212495 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
