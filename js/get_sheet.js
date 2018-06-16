@@ -67,16 +67,23 @@ function get_vol(){
 }
 
 
+function get_BPM() {
+    var select = document.getElementsByClassName("bpmJS")
+    var elem = select.value;
+    return select;
+}
+
 
 function generate_json(){
     var json = {
-        "bpm": 120,
+        "bpm": 0,
         "samples": [],
         "effects": [],
         "vol" : [],
         "music" : []
     };
 
+    json.bpm = get_BPM();
     json.samples = get_samples();
     json.effects = get_effects().slice(0,json.samples.length);
     json.vol = get_vol().slice(0,json.samples.length);

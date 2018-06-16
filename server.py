@@ -92,7 +92,30 @@ class Root:
     @cherrypy.expose
     def get(self, id):
         print(id)
-        return "GET"
+  
+        db = sqlite3.connect('database.db')
+        samples = db.execute('SELECT * FROM samples WHERE id =?',id)
+        if samples : 
+          dict = []
+          dict.append({})
+          dict["name"] = row[0]
+          dict["date"] = row[1]
+          dict["id"] = row[2]
+          dict["length"] = row[3]
+          dict["uses"] = row[4]
+          return (json.dumps(dict, indent=4))
+        else:
+          songs = db.execute('SELECT * FROM songs WHERE id =?',id)
+          dict = []
+          dict.append({})
+          dict["name"] = row[0]
+          dict["id"] = row[1]
+          dict["length"] = row[2]
+          dict["date"] = row[3]
+          dict["uses"] = row[4]
+          dict["votes"] = row[5]
+          dict["author"] = row[6]
+          return (json.dumps(dict, indent=4))
 
     @cherrypy.expose
     def sheet(self, sheet):
@@ -100,8 +123,8 @@ class Root:
       
     @cherrypy.expose
     def vote(self, id,points):
-      #user = cherrypy.request.headers.get('X-Remote-User') DESCOMENTAR
-      user = "andr.alves" # ELIMINAR LINHA QUANDO O PROJETO TIVER FEITO
+      user = cherrypy.request.headers.get('X-Remote-User') #DESCOMENTAR
+      #user = "andr.alves" # ELIMINAR LINHA QUANDO O PROJETO TIVER FEITO
 
       if int(points) == 1 or int(points) == -1: 
         dataBase = sqlite3.connect('database.db')
