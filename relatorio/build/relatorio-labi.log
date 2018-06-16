@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  16 JUN 2018 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  16 JUN 2018 02:28
 entering extended mode
 **./relatorio-labi.tex
 (relatorio-labi.tex
@@ -1028,7 +1028,7 @@ Package babel Info: Redefining portuges shorthand "|
  [6]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 204.
-<img/misturador.PNG, id=131, 629.9535pt x 478.78876pt>
+<img/misturador.PNG, id=149, 629.9535pt x 478.78876pt>
 File: img/misturador.PNG Graphic file (type png)
 <use img/misturador.PNG>
 Package pdftex.def Info: img/misturador.PNG  used on input line 212. on input l
@@ -1045,7 +1045,7 @@ Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 218.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 221.
-<img/votos-1.png, id=138, 969.6225pt x 135.50626pt>
+<img/votos-1.png, id=156, 969.6225pt x 135.50626pt>
 File: img/votos-1.png Graphic file (type png)
 <use img/votos-1.png>
 Package pdftex.def Info: img/votos-1.png  used on input line 224. on input line
@@ -1057,7 +1057,7 @@ Overfull \hbox (42.84213pt too wide) in paragraph at lines 224--225
  [][] 
  []
 
-<img/votos0.png, id=139, 948.54375pt x 133.49875pt>
+<img/votos0.png, id=157, 948.54375pt x 133.49875pt>
 File: img/votos0.png Graphic file (type png)
 <use img/votos0.png>
 Package pdftex.def Info: img/votos0.png  used on input line 230. on input line 
@@ -1069,7 +1069,7 @@ Overfull \hbox (34.41077pt too wide) in paragraph at lines 230--231
  [][] 
  []
 
-<img/votos1.png, id=140, 957.5775pt x 136.51pt>
+<img/votos1.png, id=158, 957.5775pt x 136.51pt>
 File: img/votos1.png Graphic file (type png)
 <use img/votos1.png>
 Package pdftex.def Info: img/votos1.png  used on input line 236. on input line 
@@ -1083,7 +1083,7 @@ Overfull \hbox (38.02422pt too wide) in paragraph at lines 236--237
 
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 240.
-<img/excertos.png, id=141, 1115.16624pt x 540.0175pt>
+<img/excertos.png, id=159, 1115.16624pt x 540.0175pt>
 File: img/excertos.png Graphic file (type png)
 <use img/excertos.png>
 Package pdftex.def Info: img/excertos.png  used on input line 243. on input lin
@@ -1104,21 +1104,21 @@ Package babel Info: Redefining portuges shorthand "|
  [9 <./img/excertos.png>]
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language append on input line 248.
-<img/samples.png, id=158, 495.8525pt x 256.96pt>
+<img/samples.png, id=172, 495.8525pt x 256.96pt>
 File: img/samples.png Graphic file (type png)
 <use img/samples.png>
 Package pdftex.def Info: img/samples.png  used on input line 251. on input line
  251.
 Package pdftex.def Info: Requested size: 198.33748pt x 102.78217pt on input lin
 e 251.
-<img/songs.png, id=159, 484.81125pt x 92.345pt>
+<img/songs.png, id=173, 484.81125pt x 92.345pt>
 File: img/songs.png Graphic file (type png)
 <use img/songs.png>
 Package pdftex.def Info: img/songs.png  used on input line 257. on input line 2
 57.
 Package pdftex.def Info: Requested size: 242.40503pt x 46.17238pt on input line
  257.
-<img/votos.png, id=160, 361.35pt x 110.4125pt>
+<img/votos.png, id=174, 361.35pt x 110.4125pt>
 File: img/votos.png Graphic file (type png)
 <use img/votos.png>
 Package pdftex.def Info: img/votos.png  used on input line 263. on input line 2
@@ -1159,10 +1159,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
 Package rerunfilecheck Info: File `relatorio-labi.out' has not changed.
 (rerunfilecheck)             Checksum: EFF57F5E679DAAF0B9CCAFFF31757FA1;826.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'relatorio-labi.run.xml'.
 \openout1 = `relatorio-labi.run.xml'.
 
@@ -1170,7 +1166,7 @@ Package logreq Info: Writing requests to 'relatorio-labi.run.xml'.
 Here is how much of TeX's memory you used:
  13403 strings out of 493312
  220506 string characters out of 3138872
- 664322 words of memory out of 3000000
+ 664357 words of memory out of 3000000
  16710 multiletter control sequences out of 15000+200000
  15863 words of font info for 36 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1192,9 +1188,9 @@ n\ec\dpi600\ecrm1728.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts
 l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on "C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2018-p2-g5\relat
-orio\build\relatorio-labi.pdf" (14 pages, 274779 bytes).
+orio\build\relatorio-labi.pdf" (14 pages, 277776 bytes).
 PDF statistics:
- 583 PDF objects out of 1000 (max. 8388607)
+ 596 PDF objects out of 1000 (max. 8388607)
  45 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
