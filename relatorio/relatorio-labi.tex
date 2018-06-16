@@ -92,25 +92,17 @@ O sistema é composto por vários componentes, componentes estes que são:
 	\item Gerador de Músicas
 \end{itemize}	
 
-A Interface Web (\autoref{chap.interface}) é composta por quatro páginas HTML cada uma com 
-um propósito prório a explicar mais à frente.
+A Interface Web (\autoref{chap.interface}) é composta por quatro páginas HTML cada uma com um propósito prório a explicar mais à frente.
 
-A página Início é uma pequena página inicial na qual o utilizador poderá ver 
-aquilo que pode fazer neste site, assim como algumas informações sobre os autores e o local onde o projeto foi desenvolvido.
+A página Início é uma pequena página inicial na qual o utilizador poderá ver aquilo que pode fazer neste site, assim como algumas informações sobre os autores e o local onde o projeto foi desenvolvido.
 	
-As Aplicações Web consistem num programa python que serve conteúdos estáticos, 
-esta parte do trabalho serve como ponte para todos os outros componentes, para além disto tem também objetivos próprios a ser 
+A Aplicação Web consiste num programa python que serve conteúdos estáticos, esta parte do trabalho serve como ponte para todos os outros componentes, para além disto tem também objetivos próprios a ser 
 explicados mais à frente na \autoref{chap.aplicacao}.
 
-A parte da Persistência consiste numa base de dados relacional e obtenção de dados da mesma, 
-tudo isto será depois utilizado pela parte das Aplicações Web para registar as músicas criadas, os excertos que existem e os 
-votos de cada um dos utilizadores, explicado em maior detalhe em \autoref{chap.persistencia}.
+A parte da Persistência consiste numa base de dados relacional e obtenção de dados da mesma, tudo isto será depois utilizado pela parte da Aplicação Web para registar as músicas criadas, os excertos que existem e os votos de cada um dos utilizadores, explicado em maior detalhe em \autoref{chap.persistencia}.
 
 A parte do Gerador de Música deverá aceitar uma pauta na forma de um dicionário, gerando a música
-especificada. Caso a geração tenha sucesso, a música deverá ser escrita no sistema de
-ficheiros. Deverá igualmente ser gerado um identificador com base no conteúdo, sendo
-este devolvido pelo módulo para persistência na base de dados.
-Este componente deverá suportar pelo menos 5 efeitos a aplicar no momento da geração
+especificada. Caso a geração tenha sucesso, a música deverá ser escrita no sistema de ficheiros. Deverá igualmente ser gerado um identificador com base no conteúdo, sendo este devolvido pelo módulo para persistência na base de dados. Este componente deverá suportar pelo menos 5 efeitos a aplicar no momento da geração
 da música.
 
 \chapter{Desenvolvimento}
@@ -118,7 +110,20 @@ da música.
 	
 \section{Interface Web}
 \label{chap.interface}
-..............
+A Interface Web é composta por quatro páginas desenvolvidas através de e HyperText Markup Language (HTML), JavaScript (JS) e Cascading Style Sheets (CSS). 
+
+A página \textit{Início} é uma página inicial, onde se encontra informação sobre o que poderá ser feito no site. Além de servir como ligação para as outras páginas, a página \textit{Início} tem também informação sobre os elementos que desenvolveram o projeto e o local onde o mesmo foi desenvolvido.
+
+A segunda página do site é a página \textit{Músicas}. Nesta página estão todas as músicas produzidas/editadas por todos os utilizadores. É também nesta página que os utilizadores poderão votar músicas, apenas um voto por utilizador. O voto pode ser \textit{upvote} ou \textit{downvote} e pode ser alterado. 
+No projeto esta página apenas vai ter uma música de exemplo mostrando que os votos funcionam. Isto deve-se a um problema no Gerador de Músicas.
+
+Na terceira página estão todos os excertos de sons que podem ser utilizados para criar músicas no Gerador de Músicas, ordenados por ordem alfabética. Os excertos podem também ser transferidos individualmente.
+
+A quarta página do site diz respeito ao \textit{Misturador}. É nesta página que o utilizador pode misturar excertos criando uma música. Essa música depois de criada aparece na página das \textit{Músicas}, já em cima descrita. 
+Ao misturar as músicas, o utilizador controla o número de batimentos por minuto da música assim como a adição de efeitos ao som e o volume.
+
+No projeto, ao selecionar os excertos, o números de batimentos, o volume e os efeitos e ao clicar no botão \textit{Mistura-te!} é criado um ficheiro JSON (o ficheiro JSON é criado no ficheiro \textit{\texttt{get\_sheet.js}} através da função \textit{\texttt{generate\_json()}}) com todas as especificações selecionadas mas não é possível criar de facto a música. 
+
 
 \section{Aplicação Web}
 \label{chap.aplicacao}
@@ -130,24 +135,33 @@ da música.
 
 \section{Gerador de Músicas}
 \label{chap.gerador}
-...................
+Como já foi referido \autoref{chap.interface} o Misturador de Músicas não está totalmente funcional. A seleção dos excertos, dos efeitos, do volume e dos batimentos por minutos está operacional e é criado um ficheiro JSON com toda essa informação. O ficheiro JSON é criado no ficheiro \textit{\texttt{get\_sheet.js}} através da função \textit{\texttt{generate\_json()}}). A informação que entra no ficheiro JSON é conseguida através das funções \textit{\texttt{get\_samples()}} (excertos), \textit{\texttt{get\_effects()}} (efeitos) e \textit{\texttt{get\_vol()}} (volume).
+
+O aspeto do misturador é o seguinte:
+
+	\begin{figure} [h]
+		\centering
+		\includegraphics[scale=0.5]{img/misturador.PNG}
+		\caption{Misturador de músicas}
+	\end{figure}
+
+O que falta para o Misturador de Músicas estar a funcionar é passar a informação do ficheiro JSON para python e usar a função \textit{mix()} (esta já criada no ficheiro \textit{mixer.py}).
 
 	 
 \chapter{Conclusões Finais}
 \label{chap.conclusao}
-	Com este projeto de gerador de músicas foi possível consolidar os conhecimentos 
-	adquiridos em aulas pois foi necessário tudo o que foi realizado ao longo semestre. 
+	Com este projeto de gerador de músicas foi possível consolidar os conhecimentos adquiridos em aulas pois foi necessário tudo o que foi realizado ao longo semestre. 
 	
-	Infelizmente, o projeto não está completamente funcional. Ainda assim, com o que foi feito, mudou a forma como os 
-	elementos do grupo veem as aplicações como esta de gerador de músicas, todo o trabalho que está por detrás do que é 
-	apresentado ao utilizador.  
+	Infelizmente, o projeto não está completamente funcional. Ainda assim, com o que foi feito, mudou a forma como os elementos do grupo veem as aplicações como esta de gerador de músicas, todo o trabalho que está por detrás do que é apresentado ao utilizador.  
+	
+	No futuro o que o grupo pode melhorar é a gestão de tempo pois foi isso que impossibilitou a conclusão do projeto na íntegra.
 
- 
+
 \chapter{Contribuições dos autores}
 \label{contribuições}
 
 \noindent
-André Alvez - 0\% \\
+André Alves - 0\% \\
 Daniel Correia - 0\% \\
 Pedro Almeida - 0\% \\
 Pedro Valente - 0\% 

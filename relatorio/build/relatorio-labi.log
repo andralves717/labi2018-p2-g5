@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  13 JUN 2018 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.14)  16 JUN 2018 01:39
 entering extended mode
 **./relatorio-labi.tex
 (relatorio-labi.tex
@@ -837,33 +837,38 @@ Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
 rio-labi.aux")
 \openout1 = `relatorio-labi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout4 = `relatorio-labi.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'relatorio-labi.bbl' not found.
 
-No file relatorio-labi.bbl.
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
+
+Package biblatex Warning: File 'relatorio-labi.bbl' is wrong format version - e
+xpected 2.9.
+
+Package biblatex Info: ... file 'relatorio-labi.bbl' found.
+(relatorio-labi.bbl)
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
 \AtBeginShipoutBox=\box26
-Package hyperref Info: Link coloring OFF on input line 15.
+Package hyperref Info: Link coloring OFF on input line 14.
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -872,18 +877,16 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 15.
-LaTeX Info: Redefining \pageref on input line 15.
-LaTeX Info: Redefining \nameref on input line 15.
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
 
-("C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2018-p2-g5\relatorio\build\relato
-rio-labi.out")
-("C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2018-p2-g5\relatorio\build\relato
-rio-labi.out")
+(relatorio-labi.out) (relatorio-labi.out)
 \@outlinefile=\write5
 \openout5 = `relatorio-labi.out'.
 
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count314
 \scratchdimen=\dimen110
@@ -912,35 +915,33 @@ G,.JBIG2,.JB2,.eps]
 <img/ua.pdf, id=35, pagebox=cropbox, 52.195pt x 55.20625pt>
 File: img/ua.pdf Graphic file (type pdf)
 <use img/ua.pdf>
-Package pdftex.def Info: img/ua.pdf  used on input line 52. on input line 52.
+Package pdftex.def Info: img/ua.pdf  used on input line 51. on input line 51.
 Package pdftex.def Info: Requested size: 52.19487pt x 55.2061pt on input line 5
-2.
+1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 59.
+(babel)             in language append on input line 58.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 59.
+(babel)             in language append on input line 58.
  [1
 
 {C:/Users/Pedro Almeida/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./i
 mg/ua.pdf>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 75.
+(Font)              <12> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <8> on input line 74.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
+(Font)              <6> on input line 74.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 75.
+(babel)             in language append on input line 74.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 75.
+(babel)             in language append on input line 74.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.75 
-      [1]
-("C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2018-p2-g5\relatorio\build\relato
-rio-labi.toc"
+l.74 
+      [1] (relatorio-labi.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -950,114 +951,106 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout6 = `relatorio-labi.toc'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 79.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 80.
+(babel)             in language append on input line 79.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.80 \listoffigures
+l.79 \listoffigures
                        % descomentar se necessário [1
 
-]
-("C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2018-p2-g5\relatorio\build\relato
-rio-labi.lof")
+] (relatorio-labi.lof)
 \tf@lof=\write7
 \openout7 = `relatorio-labi.lof'.
 
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 84.
+(babel)             in language append on input line 83.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 84.
- [2
+(babel)             in language append on input line 83.
+
+[2
 
 ]
 Cap\'{\i }tulo 1.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 84.
+(babel)             in language append on input line 83.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 89.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 89.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 93.
+(babel)             in language append on input line 108.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 93.
-[3
+(babel)             in language append on input line 108.
+ [3
 
 ]
 Cap\'{\i }tulo 2.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 93.
+(babel)             in language append on input line 108.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 96.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 99.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 102.
-Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 105.
-<img/arq_final.PNG, id=81, 1015.99574pt x 339.669pt>
-File: img/arq_final.PNG Graphic file (type png)
-<use img/arq_final.PNG>
-Package pdftex.def Info: img/arq_final.PNG  used on input line 112. on input li
-ne 112.
-Package pdftex.def Info: Requested size: 609.60216pt x 203.80296pt on input lin
-e 112.
+(babel)             in language append on input line 111.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 125.
 
-LaTeX Warning: Float too large for page by 83.54613pt on input line 114.
-
-<img/m_estados.PNG, id=83, 335.45325pt x 494.44725pt>
-File: img/m_estados.PNG Graphic file (type png)
-<use img/m_estados.PNG>
-Package pdftex.def Info: img/m_estados.PNG  used on input line 118. on input li
-ne 118.
-Package pdftex.def Info: Requested size: 234.81566pt x 346.11072pt on input lin
-e 118.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
+(babel)             in language append on input line 128.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
-[4
+(babel)             in language append on input line 132.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language append on input line 132.
+ [4
 
 ]
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
+(babel)             in language append on input line 132.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
- [5 <./img/arq_final.PNG>]
+(babel)             in language append on input line 136.
+<img/misturador.PNG, id=89, 629.9535pt x 478.78876pt>
+File: img/misturador.PNG Graphic file (type png)
+<use img/misturador.PNG>
+Package pdftex.def Info: img/misturador.PNG  used on input line 144. on input l
+ine 144.
+Package pdftex.def Info: Requested size: 314.97598pt x 239.39378pt on input lin
+e 144.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
+(babel)             in language append on input line 151.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
- [6 <./img/m_estados.PNG>]
+(babel)             in language append on input line 151.
+ [5 <./img/misturador.PNG>]
 Cap\'{\i }tulo 3.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 124.
+(babel)             in language append on input line 151.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 129.
+(babel)             in language append on input line 160.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 129.
-[7
+(babel)             in language append on input line 160.
+[6
 
 ]
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 129.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 139.
+(babel)             in language append on input line 160.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 170.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 139.
+(babel)             in language append on input line 170.
 Package babel Info: Redefining portuges shorthand "|
-(babel)             in language append on input line 139.
-[8
+(babel)             in language append on input line 170.
+[7
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 139.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 170.
 
 ("C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2018-p2-g5\relatorio\build\relato
 rio-labi.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 139.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 139.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 170.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 170.
 Package rerunfilecheck Info: File `relatorio-labi.out' has not changed.
 (rerunfilecheck)             Checksum: 5D3EEEA8AFCCC57DC3D089179A2CDE2B;482.
 Package logreq Info: Writing requests to 'relatorio-labi.run.xml'.
@@ -1065,29 +1058,32 @@ Package logreq Info: Writing requests to 'relatorio-labi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 13289 strings out of 493312
- 218620 string characters out of 3138872
- 661206 words of memory out of 3000000
- 16638 multiletter control sequences out of 15000+200000
- 14086 words of font info for 33 fonts, out of 3000000 for 9000
+ 13333 strings out of 493312
+ 219378 string characters out of 3138872
+ 662322 words of memory out of 3000000
+ 16675 multiletter control sequences out of 15000+200000
+ 15087 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,32p,885b,1650s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,6n,32p,885b,1650s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecbx1440.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\
-ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Pedro Almeida\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Pedro Almeid
-a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\
+\dpi600\ecit1000.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\
+ljfour\jknappen\ec\dpi600\ecti1000.pk> <C:\Users\Pedro Almeida\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Pedro Almeid
+a\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\
 Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecrm1200.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.
-9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk> <C:\Users\Pedro Almeida\AppDa
-ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\P
-edro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm24
-88.pk>
+\ecrm1000.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.
+9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Pedro Almeida\AppDa
+ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk> <C:\Users\P
+edro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm17
+28.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\ecrm1440.pk> <C:\Users\Pedro Almeida\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb>
 Output written on "C:\Users\Pedro Almeida\Desktop\LaBi\GIT\labi2018-p2-g5\relat
-orio\build\relatorio-labi.pdf" (10 pages, 219884 bytes).
+orio\build\relatorio-labi.pdf" (9 pages, 173612 bytes).
 PDF statistics:
- 391 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
