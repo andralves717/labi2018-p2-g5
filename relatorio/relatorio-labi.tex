@@ -127,6 +127,39 @@ No projeto, ao selecionar os excertos, o números de batimentos, o volume e os e
 
 \section{Aplicação Web}
 \label{chap.aplicacao}
+A aplicação Web é o programa em python que serve como ponte entre todas as partes do projeto.
+Tem as funções list, get, sheet e vote:
+
+\subsection{list}
+A função \textit{list} está dividida nas \textit{samples} e nas \textit{songs}.
+\paragraph{Samples}
+Este módulo quando usado vai devolver o JSON de todas as samples com o 
+\textit{name, date, id, length} das samples guardado na base de dados na tabela de Samples.
+\paragraph{Songs}
+À semelhança do módulo das Samples, este irá devolver o JSON de todas 
+as músicas criadas com o \textit{name, date, id, length, uses, votes, author}
+ que também se encontra guardado na base de dados.
+ \paragraph{Aceder}
+	Para aceder deve-se escrever \textit{/list?type=songs} para o JSON de músicas e \textit{/list?type=samples}
+ para os das samples
+ \subsection{get}
+ Esta função devolve todos os atributos de uma sample ou song através do seu id.
+ \p Não se encontra funcional.
+ \paragraph{Aceder} 
+ Para aceder deve-se escrever \textit{/get?id=id} em que o id é uma string de 16 caracteres de 0 a 9 e de A a F.
+
+ \subsection{sheet}
+ Esta função deveria fazer a mistura das samples para criar músicas.
+ \p Não se encontra funcional.
+
+ \subsection{vote}
+Função onde recebendo o id da música e os pontos(-1 ou 1) adiciona 
+um voto negativo ou positivo na música.
+A função averigua se o utilizador já votou ou não. Caso já tenha votado
+dá para tirar o voto clicando no botão contrário ao usado para votar e
+poderá votar denovo.
+A função adiciona os votos diretamente na base de dados.
+
 ................
 
 \section{Persistência}
