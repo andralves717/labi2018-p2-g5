@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber relatorio-labi"] 1529109933 "relatorio-labi.bcf" "relatorio-labi.bbl" "relatorio-labi" 1529109936
-  "relatorio-labi.bcf" 1529109936 93613 a84dbde950f969b3f092316c7d938588 ""
+["biber relatorio-labi"] 1529110141 "relatorio-labi.bcf" "relatorio-labi.bbl" "relatorio-labi" 1529110144
+  "relatorio-labi.bcf" 1529110144 93613 a84dbde950f969b3f092316c7d938588 ""
   (generated)
   "relatorio-labi.bbl"
-["pdflatex"] 1529109935 "/home/pedro/ARCA/LABI/labi2018-p2-g5/relatorio/relatorio-labi.tex" "relatorio-labi.pdf" "relatorio-labi" 1529109936
+["pdflatex"] 1529110143 "/home/pedro/ARCA/LABI/labi2018-p2-g5/relatorio/relatorio-labi.tex" "relatorio-labi.pdf" "relatorio-labi" 1529110144
   "/etc/texmf/web2c/texmf.cnf" 1523020976 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/pedro/ARCA/LABI/labi2018-p2-g5/relatorio/relatorio-labi.tex" 1529109931 7154 2e68df75c8c3f52fe8a60a113f1002f6 ""
+  "/home/pedro/ARCA/LABI/labi2018-p2-g5/relatorio/relatorio-labi.tex" 1529110139 7154 2e68df75c8c3f52fe8a60a113f1002f6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1480098696 3584 13049b61b922a28b158a38aeff75ee9b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2074.tfm" 1480098696 3584 7666d038713b9e38abb5c2e0f6972188 ""
@@ -118,15 +118,15 @@
   "img/votos.png" 1529109699 12397 353ff02e47795e4cda459fc58a87b320 ""
   "img/votos0.png" 1529108058 7889 615d0e09aeea7d62f0cf7f6e70223b06 ""
   "img/votos1.png" 1529108096 7757 5a82b86c4f53e3870dc7163ff7fb807b ""
-  "relatorio-labi.aux" 1529109936 6157 0db4e35a230f8c8d1f2f138b374da44b ""
-  "relatorio-labi.bbl" 1529109934 0 d41d8cd98f00b204e9800998ecf8427e "biber relatorio-labi"
-  "relatorio-labi.out" 1529109936 814 1377cc071fc94293078fc6a61430337e ""
-  "relatorio-labi.run.xml" 1529109936 2394 36196d3a03f9127f837b4859c50d0fce ""
-  "relatorio-labi.tex" 1529109931 7154 2e68df75c8c3f52fe8a60a113f1002f6 ""
+  "relatorio-labi.aux" 1529110144 6157 0db4e35a230f8c8d1f2f138b374da44b ""
+  "relatorio-labi.bbl" 1529110142 0 d41d8cd98f00b204e9800998ecf8427e "biber relatorio-labi"
+  "relatorio-labi.out" 1529110144 814 1377cc071fc94293078fc6a61430337e ""
+  "relatorio-labi.run.xml" 1529110144 2394 36196d3a03f9127f837b4859c50d0fce ""
+  "relatorio-labi.tex" 1529110139 7154 2e68df75c8c3f52fe8a60a113f1002f6 ""
   (generated)
-  "relatorio-labi.log"
-  "relatorio-labi.bcf"
-  "relatorio-labi.out"
   "relatorio-labi.pdf"
-  "relatorio-labi.aux"
   "relatorio-labi.run.xml"
+  "relatorio-labi.out"
+  "relatorio-labi.aux"
+  "relatorio-labi.bcf"
+  "relatorio-labi.log"
